@@ -29,6 +29,8 @@ import logging
 
 import datasets.transforms as mytransforms
 from datasets.AnimalPoseDataset.animalpose_dataset import AnnotationPrepare, AnnotationPrepareAndSplit, EpisodeGenerator, AnimalPoseDataset, save_episode_before_preprocess
+#importing AnnotationPrepare, AnnotationPrepareAndSplit, EpisodeGenerator, CUBDataset, save_episode_before_preprocess from CUB dataset class
+
 from datasets.dataset_utils import draw_skeletons
 
 from solver_gridms_multiple_kps_covar2 import FSLKeypointNet
